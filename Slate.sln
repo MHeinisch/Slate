@@ -5,6 +5,11 @@ VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Slate", "Slate\Slate.csproj", "{0C5B688A-C529-48B3-94D7-7421226838FB}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B5F0F74B-BEE1-443C-803E-17C435E31743}"
+	ProjectSection(SolutionItems) = preProject
+		Slate\Content\slate.css = Slate\Content\slate.css
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
