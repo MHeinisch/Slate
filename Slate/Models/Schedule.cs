@@ -16,6 +16,6 @@ namespace Slate.Models
         public string Friday { get; set; }
         public string Saturday { get; set; }
         public string Sunday { get; set; }
-        public int EmployeeId { get; set; }
+        public string EmployeeId { get; set; }
     }
 }
