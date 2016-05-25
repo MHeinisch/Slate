@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*!
  * jQuery Validation Plugin v1.15.0
  *
@@ -16,6 +17,26 @@
 	}
 }(function( $ ) {
 
+=======
+/*!
+ * jQuery Validation Plugin v1.15.0
+ *
+ * http://jqueryvalidation.org/
+ *
+ * Copyright (c) 2016 Jörn Zaefferer
+ * Released under the MIT license
+ */
+(function( factory ) {
+	if ( typeof define === "function" && define.amd ) {
+		define( ["jquery"], factory );
+	} else if (typeof module === "object" && module.exports) {
+		module.exports = factory( require( "jquery" ) );
+	} else {
+		factory( jQuery );
+	}
+}(function( $ ) {
+
+>>>>>>> 6b80141d88e750a32d4c9e0f099c9392d92214f2
 $.extend( $.fn, {
 
 	// http://jqueryvalidation.org/validate/
@@ -625,6 +646,7 @@ $.extend( $.validator, {
 				var name = this.name || $( this ).attr( "name" ); // For contenteditable
 				if ( !name && validator.settings.debug && window.console ) {
 					console.error( "%o has no name assigned", this );
+<<<<<<< HEAD
 				}
 
 				// Set form expando on contenteditable
@@ -632,6 +654,15 @@ $.extend( $.validator, {
 					this.form = $( this ).closest( "form" )[ 0 ];
 				}
 
+=======
+				}
+
+				// Set form expando on contenteditable
+				if ( this.hasAttribute( "contenteditable" ) ) {
+					this.form = $( this ).closest( "form" )[ 0 ];
+				}
+
+>>>>>>> 6b80141d88e750a32d4c9e0f099c9392d92214f2
 				// Select only the first element for each name, and only those with rules specified
 				if ( name in rulesCache || !validator.objectLength( $( this ).rules() ) ) {
 					return false;
@@ -1492,7 +1523,11 @@ $.extend( $.validator, {
 	}
 
 } );
+<<<<<<< HEAD
 
+=======
+
+>>>>>>> 6b80141d88e750a32d4c9e0f099c9392d92214f2
 // Ajax mode: abort
 // usage: $.ajax({ mode: "abort"[, port: "uniqueport"]});
 // if mode:"abort" is used, the previous request on that port (port can be undefined) is aborted via XMLHttpRequest.abort()
@@ -1528,5 +1563,9 @@ if ( $.ajaxPrefilter ) {
 		return ajax.apply( this, arguments );
 	};
 }
+<<<<<<< HEAD
 
+=======
+
+>>>>>>> 6b80141d88e750a32d4c9e0f099c9392d92214f2
 }));

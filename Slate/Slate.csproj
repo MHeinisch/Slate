@@ -202,9 +202,22 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201605252048592_Added all Databases.cs" />
+    <Compile Include="Migrations\201605252048592_Added all Databases.Designer.cs">
+      <DependentUpon>201605252048592_Added all Databases.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201605252054457_Added customer databases.cs" />
+    <Compile Include="Migrations\201605252054457_Added customer databases.Designer.cs">
+      <DependentUpon>201605252054457_Added customer databases.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\BusinessInfo.cs" />
+    <Compile Include="Models\BusinessStaff.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\Schedule.cs" />
+    <Compile Include="Models\StaffInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -291,6 +304,7 @@
   <ItemGroup>
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
+
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
