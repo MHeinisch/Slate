@@ -24,6 +24,10 @@ namespace Slate.Models
             : base("DefaultConnection", throwIfV1Schema: false)
         {
         }
+        public DbSet<BusinessInfo> BusinessInfo { get; set; }
+        public DbSet<StaffInfo> StaffInfo { get; set; }
+        public DbSet<BusinessStaff> BusinessStaff { get; set; }
+        public DbSet<Schedule> Schedule { get; set; }
 
         public static ApplicationDbContext Create()
         {
