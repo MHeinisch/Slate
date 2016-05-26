@@ -24,6 +24,15 @@ namespace Slate_Reborn.Models
             : base("DefaultConnection", throwIfV1Schema: false)
         {
         }
+        public DbSet<BusinessInfo> BusinessInfo { get; set; }
+        public DbSet<EmployeeInfo> EmployeeInfo { get; set; }
+        public DbSet<Shift> Shift { get; set; }
+        public DbSet<Availability> Availability { get; set; }
+        public DbSet<Roles> Roles { get; set; }
+        public DbSet<Day> Day { get; set; }
+        public DbSet<EmployeeRoles> EmployeeRoles { get; set; }
+        public DbSet<EmployeeShifts> EmployeeShifts { get; set; }
+        public DbSet<Week> Week { get; set; }
 
         public static ApplicationDbContext Create()
         {

@@ -16,8 +16,8 @@ namespace Slate_Reborn.Models
         [ForeignKey("Roles")]
         public int RoleId { get; set; }
         public virtual Roles Roles { get; set; }
-        public int Start { get; set; }
-        public int End { get; set; }
+        public string Start { get; set; }
+        public string End { get; set; }
 
         [ForeignKey("Day")]
         public int DayId { get; set; }
