@@ -9,7 +9,7 @@ namespace Slate_Reborn.Models
     public class EmployeeInfo
     {
         [Key]
-        public int id { get; set; }
+        public int EmpId { get; set; }
 
         [Required]
         [Display(Name = "Name")]
