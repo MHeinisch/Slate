@@ -17,7 +17,5 @@ namespace Slate_Reborn.Models
         public virtual EmployeeInfo EmployeeInfo { get; set; }
         public string Weekday { get; set; }
 
-
-
     }
 }

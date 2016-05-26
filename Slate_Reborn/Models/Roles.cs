@@ -10,7 +10,8 @@ namespace Slate_Reborn.Models
     {
         [Key]
 
-        public int ShiftId { get; set; }
+        public int RoleId { get; set; }
+        public string Title { get; set; }
 
     }
 }
