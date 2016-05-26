@@ -202,14 +202,6 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201605252048592_Added all Databases.cs" />
-    <Compile Include="Migrations\201605252048592_Added all Databases.Designer.cs">
-      <DependentUpon>201605252048592_Added all Databases.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201605252054457_Added customer databases.cs" />
-    <Compile Include="Migrations\201605252054457_Added customer databases.Designer.cs">
-      <DependentUpon>201605252054457_Added customer databases.cs</DependentUpon>
-    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\BusinessInfo.cs" />
@@ -304,15 +296,7 @@
   <ItemGroup>
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
-	<Content Include="Scripts\jquery-2.2.3.min.map" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Migrations\201605252048592_Added all Databases.resx">
-      <DependentUpon>201605252048592_Added all Databases.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201605252054457_Added customer databases.resx">
-      <DependentUpon>201605252054457_Added customer databases.cs</DependentUpon>
-    </EmbeddedResource>
+    <Content Include="Scripts\jquery-2.2.3.min.map" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
