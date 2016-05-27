@@ -181,9 +181,7 @@
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Availability.cs" />
-    <Compile Include="..\..\Slate\AvailableShift.cs">
-      <Link>Models\AvailableShift.cs</Link>
-    </Compile>
+    <Compile Include="Models\AvailableShifts.cs" />
     <Compile Include="Models\BusinessInfo.cs" />
     <Compile Include="Models\EmployeeInfo.cs" />
     <Compile Include="Models\EmployeeRoles.cs" />
