@@ -170,7 +170,6 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
-    <Compile Include="Controllers\ShiftsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -245,16 +244,7 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
-<<<<<<< HEAD
-    <Content Include="Views\Shifts\Create.cshtml" />
-    <Content Include="Views\Shifts\Delete.cshtml" />
-    <Content Include="Views\Shifts\Details.cshtml" />
-    <Content Include="Views\Shifts\Edit.cshtml" />
-    <Content Include="Views\Shifts\Index.cshtml" />
-=======
-<<<<<<< HEAD
     <Content Include="Views\DaySelection.cshtml" />
-=======
     <Content Include="Views\BusinessInfoes\Create.cshtml" />
     <Content Include="Views\BusinessInfoes\Delete.cshtml" />
     <Content Include="Views\BusinessInfoes\Details.cshtml" />
@@ -265,8 +255,6 @@
     <Content Include="Views\EmployeeInfoes\Details.cshtml" />
     <Content Include="Views\EmployeeInfoes\Edit.cshtml" />
     <Content Include="Views\EmployeeInfoes\Index.cshtml" />
->>>>>>> c6f45087082c2aad2c68871fc3ed97a990aad8d2
->>>>>>> 9d367a95ffb46a87ff9b62eb22318c1c717d947f
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
