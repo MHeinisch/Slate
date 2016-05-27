@@ -12,13 +12,11 @@ namespace Slate_Reborn.Models
         [Key]
 
         public int ShiftId { get; set; }
-
-        [ForeignKey("Roles")]
-        public int RoleId { get; set; }
-        public virtual Roles Roles { get; set; }
-        public string Start { get; set; }
-        public string End { get; set; }
         public string TimeOfDay { get; set; }
-        public string WeekDay { get; set; }
+        public int WeekDay { get; set; }
+
+        [ForeignKey("EmployeeInfo")]
+        public int EmpId { get; set; }
+        public virtual EmployeeInfo EmployeeInfo { get; set; }
     }
 }
