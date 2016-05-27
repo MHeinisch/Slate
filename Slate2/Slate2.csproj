@@ -174,12 +174,19 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201605271513050_InitialCreate.cs" />
+    <Compile Include="Migrations\201605271513050_InitialCreate.Designer.cs">
+      <DependentUpon>201605271513050_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Availability.cs" />
+    <Compile Include="..\..\Slate\AvailableShift.cs">
+      <Link>Models\AvailableShift.cs</Link>
+    </Compile>
     <Compile Include="Models\BusinessInfo.cs" />
     <Compile Include="Models\EmployeeInfo.cs" />
     <Compile Include="Models\EmployeeRoles.cs" />
-    <Compile Include="Models\EmployeeShifts.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\Roles.cs" />
@@ -259,6 +266,11 @@
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201605271513050_InitialCreate.resx">
+      <DependentUpon>201605271513050_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

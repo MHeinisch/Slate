@@ -18,6 +18,7 @@ namespace Slate_Reborn.Models
         public virtual Roles Roles { get; set; }
         public string Start { get; set; }
         public string End { get; set; }
+        public string TimeOfDay { get; set; }
         public string WeekDay { get; set; }
     }
 }
