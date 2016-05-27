@@ -138,3 +138,5 @@ C:\Users\Jared Merten\Documents\Visual Studio 2015\Projects\Slate\Slate2\bin\Mic
 C:\Users\Jared Merten\Documents\Visual Studio 2015\Projects\Slate\Slate2\obj\Debug\Slate2.csprojResolveAssemblyReference.cache
 C:\Users\Jared Merten\Documents\Visual Studio 2015\Projects\Slate\Slate2\obj\Debug\Slate2.dll
 C:\Users\Jared Merten\Documents\Visual Studio 2015\Projects\Slate\Slate2\obj\Debug\Slate2.pdb
+C:\Users\Jared Merten\Documents\Visual Studio 2015\Projects\Slate\Slate2\obj\Debug\Slate2.Migrations.InitialCreate.resources
+C:\Users\Jared Merten\Documents\Visual Studio 2015\Projects\Slate\Slate2\obj\Debug\Slate2.csproj.GenerateResource.Cache
