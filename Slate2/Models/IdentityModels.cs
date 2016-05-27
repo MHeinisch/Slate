@@ -31,5 +31,7 @@ namespace Slate2.Models
         }
 
         public System.Data.Entity.DbSet<Slate_Reborn.Models.Shift> Shifts { get; set; }
+
+        public System.Data.Entity.DbSet<Slate_Reborn.Models.EmployeeInfo> EmployeeInfoes { get; set; }
     }
 }
