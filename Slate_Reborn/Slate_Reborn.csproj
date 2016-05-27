@@ -170,21 +170,22 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\ShiftsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Availability.cs" />
     <Compile Include="Models\BusinessInfo.cs" />
     <Compile Include="Models\Day.cs" />
-    <Compile Include="Models\EmployeeInfo.cs" />
     <Compile Include="Models\EmployeeRoles.cs" />
     <Compile Include="Models\EmployeeShifts.cs" />
+    <Compile Include="Models\EmployeesInfo.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\Roles.cs" />
     <Compile Include="Models\Shift.cs" />
-    <Compile Include="Models\Slate_RebornContext.cs" />
     <Compile Include="Models\Week.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
@@ -244,6 +245,11 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Shifts\Create.cshtml" />
+    <Content Include="Views\Shifts\Delete.cshtml" />
+    <Content Include="Views\Shifts\Details.cshtml" />
+    <Content Include="Views\Shifts\Edit.cshtml" />
+    <Content Include="Views\Shifts\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

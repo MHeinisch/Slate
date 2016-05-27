@@ -25,10 +25,10 @@ namespace Slate_Reborn.Models
         {
         }
         public DbSet<BusinessInfo> BusinessInfo { get; set; }
-        public DbSet<EmployeeInfo> EmployeeInfo { get; set; }
+        public DbSet<EmployeesInfo> EmployeeInfo { get; set; }
         public DbSet<Shift> Shift { get; set; }
         public DbSet<Availability> Availability { get; set; }
-        public DbSet<Roles> Roles { get; set; }
+        public DbSet<Roles> Roless { get; set; }
         public DbSet<Day> Day { get; set; }
         public DbSet<EmployeeRoles> EmployeeRoles { get; set; }
         public DbSet<EmployeeShifts> EmployeeShifts { get; set; }

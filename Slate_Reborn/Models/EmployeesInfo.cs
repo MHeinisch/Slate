@@ -6,7 +6,7 @@ using System.Web;
 
 namespace Slate_Reborn.Models
 {
-    public class EmployeeInfo
+    public class EmployeesInfo
     {
         [Key]
         public int EmpId { get; set; }

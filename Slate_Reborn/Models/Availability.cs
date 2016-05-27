@@ -10,11 +10,12 @@ namespace Slate_Reborn.Models
     public class Availability
     {
         [Key]
-        public int AvailableId { get; set; }
+        public int Id { get; set; }
 
-        [ForeignKey("EmpId")]
+        [ForeignKey("EmployeeInfo")]
         public int EmpId { get; set; }
-        public virtual EmployeeInfo EmployeeInfo { get; set; }
+
+        public virtual EmployeesInfo EmployeeInfo { get; set; }
         public string Weekday { get; set; }
 
     }

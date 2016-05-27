@@ -12,12 +12,12 @@ namespace Slate_Reborn.Models
         [Key]
         public int EmpShiftId { get; set; }
 
-        [ForeignKey("ShiftId")]
+        [ForeignKey("Shift")]
         public int ShiftId { get; set; }
         public virtual Shift Shift { get; set; }
 
-        [ForeignKey("EmpId")]
+        [ForeignKey("EmployeeInfo")]
         public int EmpId { get; set; }
-        public virtual EmployeeInfo EmployeeInfo { get; set; }
+        public virtual EmployeesInfo EmployeeInfo { get; set; }
     }   
 }

@@ -9,7 +9,7 @@ namespace Slate_Reborn.Models
     public class BusinessInfo
     {
         [Key]
-        public int id { get; set; }
+        public int BusId { get; set; }
 
         [Required]
         [Display(Name = "Name")]
